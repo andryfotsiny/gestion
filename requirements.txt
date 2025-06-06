@@ -1,0 +1,2 @@
+# Dépendances Python
+# Aucune dépendance externe requise - utilise uniquement les modules standards
