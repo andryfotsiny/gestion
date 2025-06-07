@@ -1,3 +1,7 @@
-# Gestion d'Inventaire
 
-Application de gestion d'inventaire et de ventes
+
+lancement de projet
+
+# python main.py
+
+
