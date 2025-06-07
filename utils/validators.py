@@ -1,1 +1,0 @@
-# gestion/utils/validators.py
