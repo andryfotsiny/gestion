@@ -135,7 +135,7 @@ class ProductDialog:
         self.initial_quantity_entry.grid(row=8, column=0, sticky='ew', pady=(0, 15), padx=(0, 10), ipady=8)
         self.initial_quantity_entry.insert(0, "0")
 
-        self.create_field(fields_frame, "Stock minimum", 7, column=1)
+        self.create_field(fields_frame, "Stock", 7, column=1)
         self.min_stock_entry = tk.Entry(
             fields_frame,
             font=('Segoe UI', 10),

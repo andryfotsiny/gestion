@@ -34,7 +34,7 @@ class StockDialog:
         """Configure la boîte de dialogue"""
         title = "Ajouter du stock" if self.movement_type == 'IN' else "Enregistrer une vente"
         self.dialog.title(title)
-        self.dialog.geometry("450x500")
+        self.dialog.geometry("500x650")
         self.dialog.resizable(False, False)
         self.dialog.configure(bg='#f0f0f0')
 
@@ -43,9 +43,9 @@ class StockDialog:
         self.dialog.grab_set()
 
         self.dialog.update_idletasks()
-        x = (self.dialog.winfo_screenwidth() // 2) - (450 // 2)
-        y = (self.dialog.winfo_screenheight() // 2) - (500 // 2)
-        self.dialog.geometry(f"450x500+{x}+{y}")
+        x = (self.dialog.winfo_screenwidth() // 2) - (500 // 2)
+        y = (self.dialog.winfo_screenheight() // 2) - (650 // 2)
+        self.dialog.geometry(f"500x650+{x}+{y}")
 
     def create_widgets(self):
         """Crée l'interface utilisateur"""
